@@ -525,13 +525,13 @@ class RedditPlaceClient:
             'Accept-Encoding': 'gzip, deflate'
         }
 
-        if col < 1000:
-            if row < 1000:
+        if col < 2000:
+            if row < 2000:
                 canvas_index = 0
             else:
                 canvas_index = 2
         else:
-            if row < 1000:
+            if row < 2000:
                 canvas_index = 1
             else:
                 canvas_index = 3
